@@ -1,0 +1,29 @@
+html, body, div, main, section, canvas { box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 16px;
+  background: #07080f;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #00000063;
+  box-shadow: 1px 2px 35px rgba(0, 0, 0, 0.32);
+}
